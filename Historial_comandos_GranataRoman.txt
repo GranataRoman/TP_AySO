@@ -132,3 +132,21 @@ git status
 history -a
 ../../
 ls -l
+cp ../../.bash_history Historial_comandos_GranataRoman.txt
+ls -l
+grep -E "ssh-keygen|man grep|shadow|whoami|permisos|passwd|EOF|mkdir|script_dir|git " Historial_comandos_GranataRoman.txt
+ls
+cat datos_usuario.txt 
+sudo grep -i vagrant /etc/shadow | awk -F: '{print $2}' > pass_usuario.txt
+echo "Usuario=$(whoami)" >> pass_usuario.txt
+cat pass_usuario.txt 
+cat README.md 
+ls
+git rm -f datos_usuario.txt 
+git mv script_dir-sh script_dir.sh 
+script_dir.sh
+cat script_dir.sh
+git add .
+git commit -m "subo correciones"
+git status
+history -a
