@@ -1,0 +1,15 @@
+total 56
+drwxr-x--- 6 vagrant vagrant 4096 Oct 13 17:13 .
+drwxr-xr-x 4 root    root    4096 Oct 13 15:37 ..
+-rw------- 1 vagrant vagrant 1312 Oct 13 17:31 .bash_history
+-rw-r--r-- 1 vagrant vagrant  220 Oct  4 11:11 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 4251 Oct 13 15:37 .bashrc
+drwx------ 2 vagrant vagrant 4096 Oct 13 15:37 .cache
+-rw-rw-r-- 1 vagrant vagrant   65 Oct 13 17:13 .gitconfig
+-rw------- 1 vagrant vagrant   20 Oct 13 17:04 .lesshst
+-rw-r--r-- 1 vagrant vagrant  807 Oct  4 11:11 .profile
+drwx------ 2 vagrant vagrant 4096 Oct 13 16:21 .ssh
+-rw-r--r-- 1 root    root       5 Oct 13 15:37 README
+drwxrwxrwx 1 vagrant vagrant 4096 Oct 13 16:48 carpeta_compartida
+drwxrwxr-x 4 vagrant vagrant 4096 Oct 13 16:21 repogit
+ls -la ~ > permisos.txt
