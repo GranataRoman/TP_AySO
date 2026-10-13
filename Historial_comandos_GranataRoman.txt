@@ -1,0 +1,134 @@
+hostnamectl --help
+grep -i ip Vagrantfile
+hostnamectl status
+hostnamectl hostname
+localectl --help
+passwd --help
+man passwd
+pwd
+vagrant status
+pwd
+ls -l
+ls
+cat README 
+cd..
+ls
+cd
+ssh-keygen
+ls
+ls -a
+cd .ssh/
+ls
+cat .pub
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit/
+git clone git@github.com:GranataRoman/TP_AySO.git
+ls -l
+cd TP_AySO/
+pwd
+ls
+ls -l
+man grep
+grep VAGRANT /etc/shadow
+grep VAGRANT/etc/shadow
+pwd
+whoami
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+ls
+rm repogit
+cd repogit
+ls -l
+cd TP_AySO/
+ped
+pwd
+ls -l
+git status
+git remote -v
+ssh -T git@github.com
+man grep
+grep VAGRANT /etc/shadow
+grep vagrant /etc/shadow
+sudo grep VAGRANT /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep -i Vagrant /etc/shadow
+whoami
+echo “Usuario=$(whoami)” >> datos_usuario.txt
+cat datos_usuario.txt 
+git add.
+git add
+git add .
+git config --global user.email "romangranata_12@hotmail.com"
+git config --global user.name"GranataRoman"
+git commit -m "ADD: agrego 1er ejercicio"
+git congif --global user.name "GranataRoman"
+git config --global user.name "GranataRoman"
+git commit -m "ADD: agrego 1er ejercicio"
+git status
+ls
+-la > permisos.txt
+ls -la > permisos.txt
+cat permisos.txt 
+echo "ls -la > permisos.txt" >> permisos.txt
+cat permisos.txt 
+echo "ls -la ~ > permisos.txt" >> permisos.txt
+cat permisos.txt 
+ls -la ~ > permisos.txt
+echo "ls -la ~ > permisos.txt" >> permisos.txt
+cat permisos.txt 
+git add .
+git commit "ADD: Añadiendo archivo permisos"
+git commit -m "ADD: Añadiendo archivo permisos"
+git status
+grep -v "^root" /etc/passwd | head -10 > lista_ordenada
+cat lista_ordenada 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+cat >> README.md << EOF Alumno: Roman Granata, Division: C1-#02, Turno: Mañana EOF
+asd
+as
+
+whoami
+cd ~/repogit/TP_AySO/
+stauts
+git stauts
+git status
+cat README.md 
+cat >> README.md << EOF
+Alumno: Roman Granata.
+Division: C1-#02.
+Turno: Mañana.
+EOF
+
+cat README.md 
+history -a
+git add .
+git commit -m "ADD: subo archivo README.md"
+git status
+cd
+ls
+pwd
+mkdir -p universidad/alumnos/legajos{1..15} universidad/profesores/legajos{1..5}
+tree universidad/
+ls -R universidad/
+cd
+pwd
+echo 'mkdir -p universidad/alumnos/legajos{1..15} universidad/profesores/legajos{1..5}' > script_dir-sh
+cat script_dir-sh 
+git add .
+cd ~/repogit/TP_AySO/
+ls -l
+mv ~/script_dir-sh ~/repogit/TP_AySO/
+ls -l
+cat script_dir-sh 
+git add .
+git commit -m "ADD: Añado script"
+git status
+history -a
+../../
+ls -l
